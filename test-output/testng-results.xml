@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-21T09:44:11 GST" name="BuggyCars Test" finished-at="2022-07-21T09:45:52 GST" duration-ms="100503">
+    <groups>
+    </groups>
+    <test started-at="2022-07-21T09:44:11 GST" name="BuggyCars Test" finished-at="2022-07-21T09:45:52 GST" duration-ms="100503">
+      <class name="com.buggyCars.tests.Profile">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.buggyCars.tests.Profile@742ff096]" started-at="2022-07-21T09:44:45 GST" name="setup" finished-at="2022-07-21T09:44:48 GST" duration-ms="2880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="pwdRest()[pri:0, instance:com.buggyCars.tests.Profile@742ff096]" started-at="2022-07-21T09:44:48 GST" name="pwdRest" finished-at="2022-07-21T09:44:57 GST" duration-ms="9004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pwdRest -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.buggyCars.tests.Profile@742ff096]" started-at="2022-07-21T09:44:57 GST" name="teardown" finished-at="2022-07-21T09:44:58 GST" duration-ms="888" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pwdRest status=SUCCESS method=Profile.pwdRest()[pri:0, instance:com.buggyCars.tests.Profile@742ff096] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.buggyCars.tests.Profile -->
+      <class name="com.buggyCars.tests.VoteWithoutLogin">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.buggyCars.tests.VoteWithoutLogin@1c5920df]" started-at="2022-07-21T09:45:41 GST" name="setup" finished-at="2022-07-21T09:45:44 GST" duration-ms="3033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidVote()[pri:0, instance:com.buggyCars.tests.VoteWithoutLogin@1c5920df]" started-at="2022-07-21T09:45:44 GST" name="invalidVote" finished-at="2022-07-21T09:45:51 GST" duration-ms="6198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidVote -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.buggyCars.tests.VoteWithoutLogin@1c5920df]" started-at="2022-07-21T09:45:51 GST" name="teardown" finished-at="2022-07-21T09:45:52 GST" duration-ms="920" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidVote status=SUCCESS method=VoteWithoutLogin.invalidVote()[pri:0, instance:com.buggyCars.tests.VoteWithoutLogin@1c5920df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.buggyCars.tests.VoteWithoutLogin -->
+      <class name="com.buggyCars.tests.VoteAfterLogin">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.buggyCars.tests.VoteAfterLogin@350aac89]" started-at="2022-07-21T09:45:05 GST" name="setup" finished-at="2022-07-21T09:45:08 GST" duration-ms="2981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validVote()[pri:0, instance:com.buggyCars.tests.VoteAfterLogin@350aac89]" started-at="2022-07-21T09:45:08 GST" name="validVote" finished-at="2022-07-21T09:45:41 GST" duration-ms="32554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validVote -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.buggyCars.tests.VoteAfterLogin@350aac89]" started-at="2022-07-21T09:45:41 GST" name="teardown" finished-at="2022-07-21T09:45:41 GST" duration-ms="906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validVote status=SUCCESS method=VoteAfterLogin.validVote()[pri:0, instance:com.buggyCars.tests.VoteAfterLogin@350aac89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.buggyCars.tests.VoteAfterLogin -->
+      <class name="com.buggyCars.tests.Registration">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.buggyCars.tests.Registration@75437611]" started-at="2022-07-21T09:44:58 GST" name="setup" finished-at="2022-07-21T09:45:01 GST" duration-ms="3017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registration()[pri:0, instance:com.buggyCars.tests.Registration@75437611]" started-at="2022-07-21T09:45:01 GST" name="registration" finished-at="2022-07-21T09:45:04 GST" duration-ms="2994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.buggyCars.tests.Registration@75437611]" started-at="2022-07-21T09:45:04 GST" name="teardown" finished-at="2022-07-21T09:45:05 GST" duration-ms="843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registration status=SUCCESS method=Registration.registration()[pri:0, instance:com.buggyCars.tests.Registration@75437611] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.buggyCars.tests.Registration -->
+      <class name="com.buggyCars.tests.Navigation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.buggyCars.tests.Navigation@7bba5817]" started-at="2022-07-21T09:44:32 GST" name="setup" finished-at="2022-07-21T09:44:34 GST" duration-ms="2905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="overallRatingNavigation()[pri:0, instance:com.buggyCars.tests.Navigation@7bba5817]" started-at="2022-07-21T09:44:34 GST" name="overallRatingNavigation" finished-at="2022-07-21T09:44:35 GST" duration-ms="902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- overallRatingNavigation -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.buggyCars.tests.Navigation@7bba5817]" started-at="2022-07-21T09:44:35 GST" name="teardown" finished-at="2022-07-21T09:44:36 GST" duration-ms="782" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=overallRatingNavigation status=SUCCESS method=Navigation.overallRatingNavigation()[pri:0, instance:com.buggyCars.tests.Navigation@7bba5817] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.buggyCars.tests.Navigation@7bba5817]" started-at="2022-07-21T09:44:36 GST" name="setup" finished-at="2022-07-21T09:44:39 GST" duration-ms="2813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="popularMakeNavigation()[pri:0, instance:com.buggyCars.tests.Navigation@7bba5817]" started-at="2022-07-21T09:44:39 GST" name="popularMakeNavigation" finished-at="2022-07-21T09:44:40 GST" duration-ms="892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popularMakeNavigation -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.buggyCars.tests.Navigation@7bba5817]" started-at="2022-07-21T09:44:40 GST" name="teardown" finished-at="2022-07-21T09:44:41 GST" duration-ms="762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=popularMakeNavigation status=SUCCESS method=Navigation.popularMakeNavigation()[pri:0, instance:com.buggyCars.tests.Navigation@7bba5817] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.buggyCars.tests.Navigation@7bba5817]" started-at="2022-07-21T09:44:41 GST" name="setup" finished-at="2022-07-21T09:44:43 GST" duration-ms="2839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="popularModelNavigation()[pri:0, instance:com.buggyCars.tests.Navigation@7bba5817]" started-at="2022-07-21T09:44:43 GST" name="popularModelNavigation" finished-at="2022-07-21T09:44:45 GST" duration-ms="1084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popularModelNavigation -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.buggyCars.tests.Navigation@7bba5817]" started-at="2022-07-21T09:44:45 GST" name="teardown" finished-at="2022-07-21T09:44:45 GST" duration-ms="789" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=popularModelNavigation status=SUCCESS method=Navigation.popularModelNavigation()[pri:0, instance:com.buggyCars.tests.Navigation@7bba5817] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.buggyCars.tests.Navigation -->
+      <class name="com.buggyCars.tests.Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.buggyCars.tests.Login@1ed4ae0f]" started-at="2022-07-21T09:44:11 GST" name="setup" finished-at="2022-07-21T09:44:16 GST" duration-ms="4908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidLogin()[pri:1, instance:com.buggyCars.tests.Login@1ed4ae0f]" started-at="2022-07-21T09:44:16 GST" name="invalidLogin" finished-at="2022-07-21T09:44:18 GST" duration-ms="1795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.buggyCars.tests.Login@1ed4ae0f]" started-at="2022-07-21T09:44:18 GST" name="teardown" finished-at="2022-07-21T09:44:19 GST" duration-ms="808" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLogin status=SUCCESS method=Login.invalidLogin()[pri:1, instance:com.buggyCars.tests.Login@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.buggyCars.tests.Login@1ed4ae0f]" started-at="2022-07-21T09:44:19 GST" name="setup" finished-at="2022-07-21T09:44:21 GST" duration-ms="2744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLogin()[pri:2, instance:com.buggyCars.tests.Login@1ed4ae0f]" started-at="2022-07-21T09:44:21 GST" name="validLogin" finished-at="2022-07-21T09:44:24 GST" duration-ms="2865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.buggyCars.tests.Login@1ed4ae0f]" started-at="2022-07-21T09:44:24 GST" name="teardown" finished-at="2022-07-21T09:44:25 GST" duration-ms="833" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=Login.validLogin()[pri:2, instance:com.buggyCars.tests.Login@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.buggyCars.tests.Login@1ed4ae0f]" started-at="2022-07-21T09:44:25 GST" name="setup" finished-at="2022-07-21T09:44:28 GST" duration-ms="2912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logout()[pri:3, instance:com.buggyCars.tests.Login@1ed4ae0f]" started-at="2022-07-21T09:44:28 GST" name="logout" finished-at="2022-07-21T09:44:31 GST" duration-ms="2750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.buggyCars.tests.Login@1ed4ae0f]" started-at="2022-07-21T09:44:31 GST" name="teardown" finished-at="2022-07-21T09:44:32 GST" duration-ms="817" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logout status=SUCCESS method=Login.logout()[pri:3, instance:com.buggyCars.tests.Login@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.buggyCars.tests.Login -->
+    </test> <!-- BuggyCars Test -->
+  </suite> <!-- BuggyCars Test -->
+</testng-results>

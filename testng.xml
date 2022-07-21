@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding= "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BuggyCars Test">
+
+<listeners>
+	<listener class-name="com.buggyCars.extentreportlistener.ExtentReportNG"></listener>
+
+</listeners>
+	<test name="BuggyCars Test">
+		<classes>
+			<class name="com.buggyCars.tests.Login" />
+			<class name="com.buggyCars.tests.Navigation" />
+			<class name="com.buggyCars.tests.Profile" />
+			<class name="com.buggyCars.tests.Registration" />
+			<class name="com.buggyCars.tests.VoteAfterLogin" />
+			<class name="com.buggyCars.tests.VoteWithoutLogin" />
+		</classes>
+	</test>
+</suite>
